@@ -1,0 +1,42 @@
+{
+  "name": "vra-cli",
+  "version": "0.0.1",
+  "description": "vra-cli",
+  "main": "index.js",
+  "bin": {
+    "vra": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l-Lemon/vra-cli.git"
+  },
+  "keywords": [
+    "vue",
+    "react",
+    "angular",
+    "vra",
+    "vra-cli"
+  ],
+  "author": "zero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/l-Lemon/vra-cli/issues"
+  },
+  "homepage": "https://github.com/l-Lemon/vra-cli#readme",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "cac": "^6.5.2",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "fs-extra": "^8.0.1",
+    "inquirer": "^6.3.1",
+    "read": "^1.0.7",
+    "semver": "^6.1.1"
+  },
+  "devDependencies": {
+    "download-git-repo": "^3.0.2"
+  }
+}
